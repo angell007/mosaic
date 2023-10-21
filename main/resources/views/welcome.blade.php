@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Mosaic</title>
+    <title>Mosaic.</title>
     <meta charset="UTF-8">
 </head>
 
