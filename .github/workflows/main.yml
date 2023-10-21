@@ -7,5 +7,5 @@ jobs:
     steps:
       - uses: craftech-io/slack-action@v1
         with:
-          slack_webhook_url: https://hooks.slack.com/services/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
+          slack_webhook_url: https://hooks.slack.com/services/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
     if: always()
