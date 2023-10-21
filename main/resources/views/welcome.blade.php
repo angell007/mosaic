@@ -2,8 +2,8 @@
 <html>
 
 <head>
-    <title>Mosaic app </title>
-    <meta charset="UTF-8">
+    <title> Mosaic app </title>
+    <meta charset="UTF-8" >
 </head>
 
 <body>
@@ -11,7 +11,6 @@
     <style>
         div {
             border-radius: 5px;
-
         }
 
         #encabezado {
