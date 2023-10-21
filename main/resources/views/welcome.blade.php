@@ -121,9 +121,6 @@
 
     <div id="encabezado">
         <p id="name">Carlos Garces Alvarez</p>
-        {{-- <a href="eduard.alvarez@hotmail.com" target="_blank">
-            <p id="email">eduard.alvarez@hotmail.com</p>
-        </a> --}}
     </div>
     <div class="izquierda">
         <div class="info">
