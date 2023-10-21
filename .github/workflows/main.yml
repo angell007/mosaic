@@ -1,4 +1,4 @@
-name: Nombre de tu flujo de trabajo
+name: Mosaic
 on:
   push:
 jobs:
