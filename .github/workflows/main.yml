@@ -1,6 +1,6 @@
-name: The name of your workflow
-on [push]
-
+name: Nombre de tu flujo de trabajo
+on:
+  push:
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -8,4 +8,4 @@ jobs:
       - uses: craftech-io/slack-action@v1
         with:
           slack_webhook_url: https://hooks.slack.com/services/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
-        if: always()
+    if: always()
