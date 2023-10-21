@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title></title>
+    <title>Mosaic</title>
     <meta charset="UTF-8">
 </head>
 
@@ -11,6 +11,7 @@
     <style>
         div {
             border-radius: 5px;
+
         }
 
         #encabezado {
