@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Mosaic </title>
+    <title>Mosaic app </title>
     <meta charset="UTF-8">
 </head>
 
