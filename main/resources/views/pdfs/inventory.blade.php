@@ -3,11 +3,8 @@
 
 <head>
     <title>Generate And Download PDF File Using dompdf</title>
-     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-        <!--<link rel="stylesheet" href="{{asset('bootstrap.min.css')}}">-->
-
 </head>
 
 <body width="100%" style="padding: 0; font-size: 12pt; font-family: Arial, Helvetica, sans-serif;">
@@ -18,11 +15,11 @@
 
             <div class="col-md-6">
 
-                <span> <b> Code: </b> {{$inventory->id}}</span>
+                <span> <b> Code: </b> {{ $inventory->id }}</span>
                 <br>
-                <span> <b> Shelf: </b> {{$inventory->store->name}}</span>
+                <span> <b> Shelf: </b> {{ $inventory->store->name }}</span>
                 <br>
-                <span> <b>Address:</b> {{$inventory->store->address}}</span>
+                <span> <b>Address:</b> {{ $inventory->store->address }}</span>
                 <br>
 
             </div>
@@ -30,13 +27,13 @@
             <div class="col-md-6">
 
 
-                <span><b>Checked : {{$inventory->check ? 'Si' : 'No' }}
+                <span><b>Checked : {{ $inventory->check ? 'Si' : 'No' }}
                         <br>
-                        <span><b>Vendor:</b> {{$inventory->user->name }}</span>
+                        <span><b>Vendor:</b> {{ $inventory->user->name }}</span>
                         <br>
-                        <span><b>Created at:</b> {{$inventory->created_at }}</span>
+                        <span><b>Created at:</b> {{ $inventory->created_at }}</span>
                         <br>
-                        <span><b>Updated at:</b> {{$inventory->updated_at }}</span>
+                        <span><b>Updated at:</b> {{ $inventory->updated_at }}</span>
 
             </div>
         </div>
@@ -54,21 +51,19 @@
                 </thead>
                 <tbody>
                     @foreach ($inventory->elements as $item)
-                            @if ( $item->quantities->quantity == 0 )
+                        @if ($item->quantities->quantity == 0)
+                            <tr>
+                                <td>{{ $item->name }}</td>
+                                <td>{{ $item->sku }}</td>
+                                <td>{{ $item->sheet_size }}</td>
 
+                                <td> {{ $item->status == 0 ? 'in stock' : 'Sold out' }} </td>
 
-                    <tr>
-                        <td>{{$item->name}}</td>
-                        <td>{{$item->sku}}</td>
-                        <td>{{$item->sheet_size}}</td>
-
-                        <td>  {{$item->status == 0 ?  'in stock' : 'Sold out'}} </td>
-
-                        <td class="text">
-                            <label> {{$item->quantities->quantity !== 0 ? 'in stock' : 'Restock' }} </label>
-                        </td>
-                    </tr>
-                    @endif
+                                <td class="text">
+                                    <label> {{ $item->quantities->quantity !== 0 ? 'in stock' : 'Restock' }} </label>
+                                </td>
+                            </tr>
+                        @endif
                     @endforeach
                 </tbody>
             </table>

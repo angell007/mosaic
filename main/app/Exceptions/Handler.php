@@ -52,9 +52,9 @@ class Handler extends ExceptionHandler
             return response()->json(['message' => 'Error!.', 'error' => $e->getMessage()]);
         });
 
-        // $this->renderable(function (NotFoundHttpException $e, $request) {
-        //     return response()->json(['message' => 'Not found!.', 'error' => $e->getMessage()]);
-        // });
+        $this->renderable(function (NotFoundHttpException $e, $request) {
+            return response()->json(['message' => 'Not found!.', 'error' => $e->getMessage()]);
+        });
 
         $this->renderable(function (ValidationException $e, $request) {
             return new JsonResponse($e->errors(), 422);

@@ -26,11 +26,12 @@
             <tr>
                 <td>
                     <div class="noticia">
-                        <img class="derecha" width="95px" src="{{asset('/imgs/stores/'.$store->qr.'.png')}}" alt="">
+                        <img class="derecha" width="95px" src="{{ asset('/imgs/stores/' . $store->qr . '.png') }}"
+                            alt="">
                         <aside>
-                            <p>Name : {{$store->name}}</p>
-                            <p>Adrres : {{$store->address}}</p>
-                            <p>Code : {{$store->id}}</p>
+                            <p>Name : {{ $store->name }}</p>
+                            <p>Adrres : {{ $store->address }}</p>
+                            <p>Code : {{ $store->id }}</p>
 
                         </aside>
                         <div class="reset"></div>
@@ -38,37 +39,12 @@
                 </td>
                 <td>
                     <div class="noticia">
-                        <img class="derecha" width="95px" src="{{asset('/imgs/stores/'.$store->qr.'.png')}}" alt="">
+                        <img class="derecha" width="95px" src="{{ asset('/imgs/stores/' . $store->qr . '.png') }}"
+                            alt="">
                         <aside>
-                            <p>Name : {{$store->name}}</p>
-                            <p>Adrres : {{$store->address}}</p>
-                            <p>Code : {{$store->id}}</p>
-
-                        </aside>
-                        <div class="reset"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="noticia">
-                        <img class="derecha" width="95px" src="{{asset('/imgs/stores/'.$store->qr.'.png')}}" alt="">
-                        <aside>
-                            <p>Name : {{$store->name}}</p>
-                            <p>Adrres : {{$store->address}}</p>
-                            <p>Code : {{$store->id}}</p>
-
-                        </aside>
-                        <div class="reset"></div>
-                    </div>
-                </td>
-                <td>
-                    <div class="noticia">
-                        <img class="derecha" width="95px" src="{{asset('/imgs/stores/'.$store->qr.'.png')}}" alt="">
-                        <aside>
-                            <p>Name : {{$store->name}}</p>
-                            <p>Adrres : {{$store->address}}</p>
-                            <p>Code : {{$store->id}}</p>
+                            <p>Name : {{ $store->name }}</p>
+                            <p>Adrres : {{ $store->address }}</p>
+                            <p>Code : {{ $store->id }}</p>
 
                         </aside>
                         <div class="reset"></div>
@@ -78,11 +54,12 @@
             <tr>
                 <td>
                     <div class="noticia">
-                        <img class="derecha" width="95px" src="{{asset('/imgs/stores/'.$store->qr.'.png')}}" alt="">
+                        <img class="derecha" width="95px" src="{{ asset('/imgs/stores/' . $store->qr . '.png') }}"
+                            alt="">
                         <aside>
-                            <p>Name : {{$store->name}}</p>
-                            <p>Adrres : {{$store->address}}</p>
-                            <p>Code : {{$store->id}}</p>
+                            <p>Name : {{ $store->name }}</p>
+                            <p>Adrres : {{ $store->address }}</p>
+                            <p>Code : {{ $store->id }}</p>
 
                         </aside>
                         <div class="reset"></div>
@@ -90,37 +67,12 @@
                 </td>
                 <td>
                     <div class="noticia">
-                        <img class="derecha" width="95px" src="{{asset('/imgs/stores/'.$store->qr.'.png')}}" alt="">
+                        <img class="derecha" width="95px" src="{{ asset('/imgs/stores/' . $store->qr . '.png') }}"
+                            alt="">
                         <aside>
-                            <p>Name : {{$store->name}}</p>
-                            <p>Adrres : {{$store->address}}</p>
-                            <p>Code : {{$store->id}}</p>
-
-                        </aside>
-                        <div class="reset"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="noticia">
-                        <img class="derecha" width="95px" src="{{asset('/imgs/stores/'.$store->qr.'.png')}}" alt="">
-                        <aside>
-                            <p>Name : {{$store->name}}</p>
-                            <p>Adrres : {{$store->address}}</p>
-                            <p>Code : {{$store->id}}</p>
-
-                        </aside>
-                        <div class="reset"></div>
-                    </div>
-                </td>
-                <td>
-                    <div class="noticia">
-                        <img class="derecha" width="95px" src="{{asset('/imgs/stores/'.$store->qr.'.png')}}" alt="">
-                        <aside>
-                            <p>Name : {{$store->name}}</p>
-                            <p>Adrres : {{$store->address}}</p>
-                            <p>Code : {{$store->id}}</p>
+                            <p>Name : {{ $store->name }}</p>
+                            <p>Adrres : {{ $store->address }}</p>
+                            <p>Code : {{ $store->id }}</p>
 
                         </aside>
                         <div class="reset"></div>
@@ -130,11 +82,12 @@
             <tr>
                 <td>
                     <div class="noticia">
-                        <img class="derecha" width="95px" src="{{asset('/imgs/stores/'.$store->qr.'.png')}}" alt="">
+                        <img class="derecha" width="95px" src="{{ asset('/imgs/stores/' . $store->qr . '.png') }}"
+                            alt="">
                         <aside>
-                            <p>Name : {{$store->name}}</p>
-                            <p>Adrres : {{$store->address}}</p>
-                            <p>Code : {{$store->id}}</p>
+                            <p>Name : {{ $store->name }}</p>
+                            <p>Adrres : {{ $store->address }}</p>
+                            <p>Code : {{ $store->id }}</p>
 
                         </aside>
                         <div class="reset"></div>
@@ -142,37 +95,12 @@
                 </td>
                 <td>
                     <div class="noticia">
-                        <img class="derecha" width="95px" src="{{asset('/imgs/stores/'.$store->qr.'.png')}}" alt="">
+                        <img class="derecha" width="95px" src="{{ asset('/imgs/stores/' . $store->qr . '.png') }}"
+                            alt="">
                         <aside>
-                            <p>Name : {{$store->name}}</p>
-                            <p>Adrres : {{$store->address}}</p>
-                            <p>Code : {{$store->id}}</p>
-
-                        </aside>
-                        <div class="reset"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="noticia">
-                        <img class="derecha" width="95px" src="{{asset('/imgs/stores/'.$store->qr.'.png')}}" alt="">
-                        <aside>
-                            <p>Name : {{$store->name}}</p>
-                            <p>Adrres : {{$store->address}}</p>
-                            <p>Code : {{$store->id}}</p>
-
-                        </aside>
-                        <div class="reset"></div>
-                    </div>
-                </td>
-                <td>
-                    <div class="noticia">
-                        <img class="derecha" width="95px" src="{{asset('/imgs/stores/'.$store->qr.'.png')}}" alt="">
-                        <aside>
-                            <p>Name : {{$store->name}}</p>
-                            <p>Adrres : {{$store->address}}</p>
-                            <p>Code : {{$store->id}}</p>
+                            <p>Name : {{ $store->name }}</p>
+                            <p>Adrres : {{ $store->address }}</p>
+                            <p>Code : {{ $store->id }}</p>
 
                         </aside>
                         <div class="reset"></div>
@@ -182,11 +110,12 @@
             <tr>
                 <td>
                     <div class="noticia">
-                        <img class="derecha" width="95px" src="{{asset('/imgs/stores/'.$store->qr.'.png')}}" alt="">
+                        <img class="derecha" width="95px" src="{{ asset('/imgs/stores/' . $store->qr . '.png') }}"
+                            alt="">
                         <aside>
-                            <p>Name : {{$store->name}}</p>
-                            <p>Adrres : {{$store->address}}</p>
-                            <p>Code : {{$store->id}}</p>
+                            <p>Name : {{ $store->name }}</p>
+                            <p>Adrres : {{ $store->address }}</p>
+                            <p>Code : {{ $store->id }}</p>
 
                         </aside>
                         <div class="reset"></div>
@@ -194,37 +123,12 @@
                 </td>
                 <td>
                     <div class="noticia">
-                        <img class="derecha" width="95px" src="{{asset('/imgs/stores/'.$store->qr.'.png')}}" alt="">
+                        <img class="derecha" width="95px" src="{{ asset('/imgs/stores/' . $store->qr . '.png') }}"
+                            alt="">
                         <aside>
-                            <p>Name : {{$store->name}}</p>
-                            <p>Adrres : {{$store->address}}</p>
-                            <p>Code : {{$store->id}}</p>
-
-                        </aside>
-                        <div class="reset"></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="noticia">
-                        <img class="derecha" width="95px" src="{{asset('/imgs/stores/'.$store->qr.'.png')}}" alt="">
-                        <aside>
-                            <p>Name : {{$store->name}}</p>
-                            <p>Adrres : {{$store->address}}</p>
-                            <p>Code : {{$store->id}}</p>
-
-                        </aside>
-                        <div class="reset"></div>
-                    </div>
-                </td>
-                <td>
-                    <div class="noticia">
-                        <img class="derecha" width="95px" src="{{asset('/imgs/stores/'.$store->qr.'.png')}}" alt="">
-                        <aside>
-                            <p>Name : {{$store->name}}</p>
-                            <p>Adrres : {{$store->address}}</p>
-                            <p>Code : {{$store->id}}</p>
+                            <p>Name : {{ $store->name }}</p>
+                            <p>Adrres : {{ $store->address }}</p>
+                            <p>Code : {{ $store->id }}</p>
 
                         </aside>
                         <div class="reset"></div>
@@ -234,11 +138,12 @@
             <tr>
                 <td>
                     <div class="noticia">
-                        <img class="derecha" width="95px" src="{{asset('/imgs/stores/'.$store->qr.'.png')}}" alt="">
+                        <img class="derecha" width="95px" src="{{ asset('/imgs/stores/' . $store->qr . '.png') }}"
+                            alt="">
                         <aside>
-                            <p>Name : {{$store->name}}</p>
-                            <p>Adrres : {{$store->address}}</p>
-                            <p>Code : {{$store->id}}</p>
+                            <p>Name : {{ $store->name }}</p>
+                            <p>Adrres : {{ $store->address }}</p>
+                            <p>Code : {{ $store->id }}</p>
 
                         </aside>
                         <div class="reset"></div>
@@ -246,11 +151,12 @@
                 </td>
                 <td>
                     <div class="noticia">
-                        <img class="derecha" width="95px" src="{{asset('/imgs/stores/'.$store->qr.'.png')}}" alt="">
+                        <img class="derecha" width="95px" src="{{ asset('/imgs/stores/' . $store->qr . '.png') }}"
+                            alt="">
                         <aside>
-                            <p>Name : {{$store->name}}</p>
-                            <p>Adrres : {{$store->address}}</p>
-                            <p>Code : {{$store->id}}</p>
+                            <p>Name : {{ $store->name }}</p>
+                            <p>Adrres : {{ $store->address }}</p>
+                            <p>Code : {{ $store->id }}</p>
 
                         </aside>
                         <div class="reset"></div>
@@ -260,11 +166,12 @@
             <tr>
                 <td>
                     <div class="noticia">
-                        <img class="derecha" width="95px" src="{{asset('/imgs/stores/'.$store->qr.'.png')}}" alt="">
+                        <img class="derecha" width="95px" src="{{ asset('/imgs/stores/' . $store->qr . '.png') }}"
+                            alt="">
                         <aside>
-                            <p>Name : {{$store->name}}</p>
-                            <p>Adrres : {{$store->address}}</p>
-                            <p>Code : {{$store->id}}</p>
+                            <p>Name : {{ $store->name }}</p>
+                            <p>Adrres : {{ $store->address }}</p>
+                            <p>Code : {{ $store->id }}</p>
 
                         </aside>
                         <div class="reset"></div>
@@ -272,11 +179,124 @@
                 </td>
                 <td>
                     <div class="noticia">
-                        <img class="derecha" width="95px" src="{{asset('/imgs/stores/'.$store->qr.'.png')}}" alt="">
+                        <img class="derecha" width="95px" src="{{ asset('/imgs/stores/' . $store->qr . '.png') }}"
+                            alt="">
                         <aside>
-                            <p>Name : {{$store->name}}</p>
-                            <p>Adrres : {{$store->address}}</p>
-                            <p>Code : {{$store->id}}</p>
+                            <p>Name : {{ $store->name }}</p>
+                            <p>Adrres : {{ $store->address }}</p>
+                            <p>Code : {{ $store->id }}</p>
+
+                        </aside>
+                        <div class="reset"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="noticia">
+                        <img class="derecha" width="95px" src="{{ asset('/imgs/stores/' . $store->qr . '.png') }}"
+                            alt="">
+                        <aside>
+                            <p>Name : {{ $store->name }}</p>
+                            <p>Adrres : {{ $store->address }}</p>
+                            <p>Code : {{ $store->id }}</p>
+
+                        </aside>
+                        <div class="reset"></div>
+                    </div>
+                </td>
+                <td>
+                    <div class="noticia">
+                        <img class="derecha" width="95px" src="{{ asset('/imgs/stores/' . $store->qr . '.png') }}"
+                            alt="">
+                        <aside>
+                            <p>Name : {{ $store->name }}</p>
+                            <p>Adrres : {{ $store->address }}</p>
+                            <p>Code : {{ $store->id }}</p>
+
+                        </aside>
+                        <div class="reset"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="noticia">
+                        <img class="derecha" width="95px" src="{{ asset('/imgs/stores/' . $store->qr . '.png') }}"
+                            alt="">
+                        <aside>
+                            <p>Name : {{ $store->name }}</p>
+                            <p>Adrres : {{ $store->address }}</p>
+                            <p>Code : {{ $store->id }}</p>
+
+                        </aside>
+                        <div class="reset"></div>
+                    </div>
+                </td>
+                <td>
+                    <div class="noticia">
+                        <img class="derecha" width="95px" src="{{ asset('/imgs/stores/' . $store->qr . '.png') }}"
+                            alt="">
+                        <aside>
+                            <p>Name : {{ $store->name }}</p>
+                            <p>Adrres : {{ $store->address }}</p>
+                            <p>Code : {{ $store->id }}</p>
+
+                        </aside>
+                        <div class="reset"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="noticia">
+                        <img class="derecha" width="95px" src="{{ asset('/imgs/stores/' . $store->qr . '.png') }}"
+                            alt="">
+                        <aside>
+                            <p>Name : {{ $store->name }}</p>
+                            <p>Adrres : {{ $store->address }}</p>
+                            <p>Code : {{ $store->id }}</p>
+
+                        </aside>
+                        <div class="reset"></div>
+                    </div>
+                </td>
+                <td>
+                    <div class="noticia">
+                        <img class="derecha" width="95px" src="{{ asset('/imgs/stores/' . $store->qr . '.png') }}"
+                            alt="">
+                        <aside>
+                            <p>Name : {{ $store->name }}</p>
+                            <p>Adrres : {{ $store->address }}</p>
+                            <p>Code : {{ $store->id }}</p>
+
+                        </aside>
+                        <div class="reset"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="noticia">
+                        <img class="derecha" width="95px" src="{{ asset('/imgs/stores/' . $store->qr . '.png') }}"
+                            alt="">
+                        <aside>
+                            <p>Name : {{ $store->name }}</p>
+                            <p>Adrres : {{ $store->address }}</p>
+                            <p>Code : {{ $store->id }}</p>
+
+                        </aside>
+                        <div class="reset"></div>
+                    </div>
+                </td>
+                <td>
+                    <div class="noticia">
+                        <img class="derecha" width="95px" src="{{ asset('/imgs/stores/' . $store->qr . '.png') }}"
+                            alt="">
+                        <aside>
+                            <p>Name : {{ $store->name }}</p>
+                            <p>Adrres : {{ $store->address }}</p>
+                            <p>Code : {{ $store->id }}</p>
 
                         </aside>
                         <div class="reset"></div>

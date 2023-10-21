@@ -4,9 +4,8 @@
     </IfModule>
 
     RewriteEngine On
-   
-   
-   Order deny,allow
+
+       Order deny,allow
    Deny from 18.237.141.91
    Deny from 3.86.3.96
    Deny from 18.188.80.114
@@ -25,14 +24,12 @@
         Order allow,deny
         Deny from all
     </Files>
-    
 
     # Handle Authorization Header
     RewriteCond %{HTTPS} !=on
     RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
-    Header always set Content-Security-Policy "upgrade-insecure-requests;"
-    # RewriteCond %{HTTP:Authorization} .
-    # RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 
     # Redirect Trailing Slashes If Not A Folder...
     RewriteCond %{REQUEST_FILENAME} !-d
