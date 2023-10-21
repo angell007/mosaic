@@ -120,7 +120,7 @@
     </style>
 
     <div id="encabezado">
-        <p id="name">Carlos Garces Alvarez</p>
+        <p id="name">Carlos Garces A lvarez</p>
     </div>
     <div class="izquierda">
         <div class="info">
