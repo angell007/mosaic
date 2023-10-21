@@ -125,7 +125,6 @@
     <div class="izquierda">
         <div class="info">
             <ol class="">
-                {{-- <li id="margen-top"><a href=""><span>Acerca de mí</span></a></li> --}}
                 <li id="margen-top"><a href=""><span>Empresa</span></a></li>
                 <li id="margen-top"><a href=""><span>Estudios</span></a></li>
                 <li id="margen-top"><a href=""><span>Proyectos</span></a></li>
